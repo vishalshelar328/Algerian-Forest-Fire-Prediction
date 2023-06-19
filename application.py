@@ -4,8 +4,8 @@ import numpy as np
 from sklearn.preprocessing import StandardScaler
 
 # Import the Ridge regressor model and standard scaler pickle
-ridge_model = pickle.load(open('models/ridge.pkl', 'rb'))
-standard_scaler = pickle.load(open('models/scaler.pkl', 'rb'))
+ridge_model = pickle.load(open('Models/ridge1.pkl', 'rb'))
+standard_scaler = pickle.load(open('Models/scaler.pkl', 'rb'))
 
 def validate_input(value):
     if value not in ['0', '1']:
